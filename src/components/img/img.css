@@ -1,0 +1,12 @@
+/* styles.css */
+.my-styled-carousel {
+    width: 95%; /* Adjust the width as needed to decrease the width on both sides */
+    margin: auto; /* Center the carousel horizontally */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Add a shadow box effect */
+  }
+  
+  .my-carousel-image {
+    max-height: 300px; /* Set the max-height as needed */
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
