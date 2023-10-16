@@ -39,10 +39,11 @@
     overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
     -ms-overflow-style:none;
     scrollbar-width: none;
+
   }
-  /* .App::-webkit-scrollbar{
+  .App::-webkit-scrollbar{
     display:none;
-  } */
+  }
   
   .profile-card {
     max-width: 270px; /* Adjust the max width as needed */
@@ -58,9 +59,10 @@
   }
   
   .profile-card img {
-    width: 100%;
+    width: 200px;
     max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto;
+    /* height: auto; */
+    height: 250px;
     border-radius: 10px; /* Apply the same border-radius as the card */
     object-fit: cover;
   }

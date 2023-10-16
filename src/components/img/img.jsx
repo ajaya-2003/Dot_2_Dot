@@ -49,7 +49,7 @@ const Img = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 my-carousel-image"
-          src="https://st2.depositphotos.com/1635204/7654/i/450/depositphotos_76549817-stock-photo-word-events-on-colorful-wooden.jpg"
+          src="./img8.jpeg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -60,7 +60,7 @@ const Img = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 my-carousel-image"
-          src="https://st2.depositphotos.com/1635204/7654/i/450/depositphotos_76549817-stock-photo-word-events-on-colorful-wooden.jpg"
+          src="./img9.jpeg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -71,7 +71,7 @@ const Img = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 my-carousel-image"
-          src="https://st2.depositphotos.com/1635204/7654/i/450/depositphotos_76549817-stock-photo-word-events-on-colorful-wooden.jpg"
+          src="./img11.jpeg"
           alt="Third slide"
         />
         <Carousel.Caption>

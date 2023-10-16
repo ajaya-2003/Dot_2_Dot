@@ -6,7 +6,12 @@
   }
   
   .my-carousel-image {
-    max-height: 300px; /* Set the max-height as needed */
+   
+  
+    /* new */
+    max-height: 400px; /* Set the max-height as needed */
     object-fit: cover; /* Maintain image aspect ratio */
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 400px;
   }
   

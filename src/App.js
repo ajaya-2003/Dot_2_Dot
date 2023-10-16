@@ -27,21 +27,46 @@ function App() {
       </video>
     <div classNameName="App ">
      
-      {/* <h1 className=" text-center">DOT_TO_DOT</h1> */}
-      {/* <h1 className="text-center cool-heading">DOT_2_DOT</h1> 
-      <h2 className="text-center ">EVENTS</h2>
-      <h3 style={{ position: 'absolute', right: '80%' }}>Connects Your Dream TO Reality</h3> */}
-       {/* <h1 className="text-center cool-heading">
-  <span style={{ color: 'blue' }}>DOT</span><span style={{ color: 'black' }}> 2 </span><span style={{ color: 'red' }}>DOT</span>
-</h1> */}
+      
 <h1 className="text-center cool-heading">
   <span style={{ color: 'blue', textDecoration: 'underline' }}>DOT</span>
   <span style={{ color: 'black', textDecoration: 'underline' }}> 2 </span>
   <span style={{ color: 'red', textDecoration: 'underline' }}>DOT</span>
 </h1>
-       <h2 className="text-center event-title">
+<div className="container">
+  <div className="centered-content">
+    <h2 className="text-center event-title">
+      EVENTS
+    </h2>
+    <span style={{ fontSize: '16px', marginLeft: '10px' }}>-Connects Your Dream TO Reality</span>
+  </div>
+</div>
+
+       {/* <h2 className="text-center event-title">
   EVENTS <span style={{ position: 'absolute', left: '55%', whiteSpace: 'nowrap' ,fontSize: '16px'}}>-Connects Your Dream TO Reality</span>
-</h2>
+</h2> */}
+
+{/* <div className="container">
+  <div className="centered-content">
+    <h2 className="text-center event-title">
+      EVENTS
+    </h2>
+  </div>
+  <div className="right-div">
+    <span style={{ fontSize: '16px' }}>-Connects Your Dream TO Reality</span>
+  </div>
+</div> */}
+
+{/* 2 */}
+
+
+
+
+
+
+
+
+
 {/* <h2 className="text-center event-title" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
              EVENTS <span style={{ whiteSpace: 'nowrap', fontSize: '16px' }}>-Connects Your Dream TO Reality</span>
 </h2> */}

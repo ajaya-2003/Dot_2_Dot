@@ -88,3 +88,58 @@
   z-index: -1; /* Place it behind other content */
   opacity: 0.5; /* Adjust the opacity as needed */
 }
+
+
+
+/* heading */
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px; 
+}
+
+.centered-content {
+  flex: 1; 
+  text-align: center; 
+}
+
+.right-div {
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .centered-content, .right-div {
+    flex: 1; 
+  }
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.centered-content {
+  display: flex;
+}
+
+.event-title {
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+/* @media (max-width: 768px) {
+  .centered-content {
+    flex-direction: column;
+    text-align: center; 
+  }
+}  */
+
+
+

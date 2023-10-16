@@ -7,32 +7,36 @@ const profiles = [
     {
       id: 1,
       name: 'User 1',
-      image: 'https://placekitten.com/200/200',
+      // image: 'https://placekitten.com/200/200',
+      image: process.env.PUBLIC_URL + './img10.jpeg',
+     
+         
     },
     {
       id: 2,
       name: 'User 2',
-      image: 'https://placekitten.com/200/201',
+      image: process.env.PUBLIC_URL + './img9.jpeg',
     },
     {
       id: 3,
       name: 'User 3',
-      image: 'https://placekitten.com/200/202',
+      // image: 'https://placekitten.com/200/202',
+      image: process.env.PUBLIC_URL + './img8.jpeg',
     },
     {
       id: 4,
       name: 'User 4',
-      image: 'https://placekitten.com/200/203',
+      image: process.env.PUBLIC_URL + './img7.jpeg',
     },
     {
       id: 5,
       name: 'User 5',
-      image: 'https://placekitten.com/200/204',
+      image: process.env.PUBLIC_URL + './img5.jpeg',
     },
     {
       id: 6,
       name: 'User 6',
-      image: 'https://placekitten.com/200/205',
+      image: process.env.PUBLIC_URL + './img6.jpeg',
     },
   ];
 
