@@ -37,7 +37,12 @@
     display: flex;
     justify-content: space-between; /* Distribute the cards evenly */
     overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+    -ms-overflow-style:none;
+    scrollbar-width: none;
   }
+  /* .App::-webkit-scrollbar{
+    display:none;
+  } */
   
   .profile-card {
     max-width: 270px; /* Adjust the max width as needed */

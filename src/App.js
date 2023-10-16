@@ -8,7 +8,8 @@ import Dropdown from 'react-bootstrap/Dropdown';
 // import Button from 'react-bootstrap/Button';
 import Cards from './components/cards/cards'  
 import EventCard from './components/eventcard/eventcard';
-
+import 'font-awesome/css/font-awesome.min.css';
+import  Footer from './components/ffooter/Footer'
 
 
 
@@ -189,7 +190,16 @@ function App() {
       </div>
       
       </div>
-    
+     {/* Footer */}
+     {/* <footer className="footer">
+          <div className="container">
+            <p>&copy; 2023 Your Website Name</p>
+          </div>
+        </footer> */}
+             {/* Include the Footer component */}
+      <Footer />
+
+        
     </div>
   );
 }
