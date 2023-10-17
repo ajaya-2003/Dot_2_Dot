@@ -63,7 +63,7 @@
 
 const Footer = () => {
   return (
-    <footer className="site-footer" style={{ background: 'black', minHeight: '100px' }}>
+    <footer className="site-footer" style={{ background: 'black', minHeight: '200px' }}>
       <div className="container d-flex flex-column justify-content-between" style={{ minHeight: '100%' }}>
         <div>
           <div className="col-md-6">
