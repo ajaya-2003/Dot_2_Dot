@@ -1,9 +1,9 @@
-body{
-  margin:0;
+body {
+  margin: 0;
   padding: 0;
 }
 
-.main-page{
+.main-page {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -11,17 +11,21 @@ body{
   overflow-y: auto;
   z-index: 1;
   position: absolute;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
+.main-page::-webkit-scrollbar {
+  display: none;
+}
 .super-colors {
   display: none;
 }
 
-#dropdown-custom-components:hover
- .super-colors {
+#dropdown-custom-components:hover .super-colors {
   display: block;
 }
-
 
 /* Add this to App.css */
 .event-container {
@@ -43,7 +47,7 @@ body{
 .cool-heading {
   font-size: 36px;
   font-weight: bold;
-  color: #007BFF; /* You can adjust the color to your preference */
+  color: #007bff; /* You can adjust the color to your preference */
   margin-top: 10px;
 }
 
@@ -65,34 +69,32 @@ body{
   opacity: 0.5; /* Adjust the opacity as needed */
 }
 
-
-
 /* heading */
 .container {
   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  padding: 10px; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .centered-content {
-  flex: 1; 
-  text-align: center; 
+  flex: 1;
+  text-align: center;
 }
 
 .right-div {
   font-size: 16px;
 }
 
-
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; 
-    text-align: center; 
+    flex-direction: column;
+    text-align: center;
   }
 
-  .centered-content, .right-div {
-    flex: 1; 
+  .centered-content,
+  .right-div {
+    flex: 1;
   }
 }
 /* .container {
@@ -117,27 +119,25 @@ body{
   }
 }  */
 
-
-
-.background-layer{
+.background-layer {
   height: 100vh;
   max-height: 100vh;
   width: 100%;
 }
 
-.absolute-div{
+.absolute-div {
   height: 100vh;
   width: 100%;
   /* position: absolute; */
   display: flex;
   flex-direction: column-reverse;
-align-items: flex-end;
+  align-items: flex-end;
 }
 
-.absolute-div>img{
+.absolute-div > img {
   height: 50px;
   width: 50px;
   margin: 0 50px 50px 0;
   z-index: 999;
-  position: relative; 
+  position: relative;
 }
