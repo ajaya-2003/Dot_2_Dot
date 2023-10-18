@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   overflow-y: auto;
   z-index: 1;
-  position: absolute;
+  /* position: absolute; */
   overflow-y: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -126,36 +126,27 @@ body {
 }
 
 .absolute-div {
-  height: 100vh;
-  width: 100%;
-  /* position: absolute; */
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
+  height: 50px;
+  width:50px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 999;
 }
 
 .absolute-div > img {
   height: 50px;
   width: 50px;
-  margin: 0 50px 50px 0;
-  z-index: 999;
-  position: relative;
 }
 
 @media only screen and (max-width: 500px) {
   .absolute-div {
-    height: 90vh;
-    width: 100%;
-    /* position: absolute; */
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-  }
-  .absolute-div > img {
-    height: 50px;
-    width: 50px;
-    margin: 0 25px 25px 0;
+    height: 20px;
+    width:20px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
     z-index: 999;
-    position: relative;
   }
+  
 }

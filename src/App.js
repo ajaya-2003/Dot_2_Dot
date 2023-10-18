@@ -10,6 +10,9 @@ import Whatsapplogo from "./images/whatsapplogo.png"
 function App() {
   return (
     <div className="bakground-layer">
+      <div className="absolute-div" >
+        <img src={Whatsapplogo} onClick={()=>console.log("Clicked")} alt="whatsapp" />
+      </div>
       <div className="main-page">
         <video autoPlay loop muted className="background-video">
           <source
@@ -26,9 +29,7 @@ function App() {
         <Home />
         <Footer />
       </div>
-      <div className="absolute-div" >
-        <img src={Whatsapplogo} onClick={()=>console.log("Clicked")} alt="whatsapp" />
-      </div>
+      
     </div>
   );
 }
