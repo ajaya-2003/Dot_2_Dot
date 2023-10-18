@@ -151,4 +151,11 @@ body {
     flex-direction: column-reverse;
     align-items: flex-end;
   }
+  .absolute-div > img {
+    height: 50px;
+    width: 50px;
+    margin: 0 25px 25px 0;
+    z-index: 999;
+    position: relative;
+  }
 }
