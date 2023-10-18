@@ -141,3 +141,14 @@ body {
   z-index: 999;
   position: relative;
 }
+
+@media only screen and (max-width: 500px) {
+  .absolute-div {
+    height: 90vh;
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+}
