@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import Home from "./components/home/home";
 import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
+import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/ffooter/Footer";
 import Whatsapplogo from "./images/whatsapplogo.png"
 
@@ -22,7 +22,7 @@ function App() {
           Your browser does not support the video tag.
         </video>
         <Header />
-        <Navbar />
+        <NavBar />
         <Home />
         <Footer />
       </div>
