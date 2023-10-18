@@ -6,12 +6,13 @@ import Header from "./components/Header/Header";
 import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/ffooter/Footer";
 import Whatsapplogo from "./images/whatsapplogo.png"
+import { useNavigate } from "react-router-dom";
 
 function App() {
   return (
     <div className="bakground-layer">
       <div className="absolute-div" >
-        <img src={Whatsapplogo} onClick={()=>console.log("Clicked")} alt="whatsapp" />
+        <img src={Whatsapplogo} onClick={()=>window.location.href = 'https://wa.me/917676643480'} alt="whatsapp" />
       </div>
       <div className="main-page">
         <video autoPlay loop muted className="background-video">
