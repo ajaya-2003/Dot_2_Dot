@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="bakground-layer">
       <div className="absolute-div" >
-        <img src={Whatsapplogo} onClick={()=>window.location.href = 'https://wa.me/917676643480'} alt="whatsapp" />
+        <img src={Whatsapplogo} onClick={()=>window.location.href = 'https://wa.me/919741546178'} alt="whatsapp" />
       </div>
       <div className="main-page">
         <video autoPlay loop muted className="background-video">
