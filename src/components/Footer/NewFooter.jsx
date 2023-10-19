@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // For FontAwesome
-import { Phone, Mail, LocationOn } from "@material-ui/icons"; // For Material Icons
 import "./NewFooter.css";
 
 
