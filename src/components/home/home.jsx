@@ -8,7 +8,6 @@ import "font-awesome/css/font-awesome.min.css";
 const Home = () => {
   return (
     <div className="App">
-      <div classNameName="App ">
         {/* <div className='absolute-icon'></div> */}
         <div className="my-4"></div>
 
@@ -48,7 +47,6 @@ const Home = () => {
         </div>
       </div>
 
-    </div>
   );
 };
 

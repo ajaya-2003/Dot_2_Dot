@@ -9,9 +9,13 @@ import Whatsapplogo from "./images/whatsapplogo.png"
 import NewFooter from "./components/Footer/NewFooter";
 // import Maps from "./components/maps/maps";
 
+
 function App() {
   return (
     <div className="bakground-layer">
+      <div className="absolute-div" >
+        <img src={Whatsapplogo} onClick={()=>window.location.href = 'https://wa.me/917676643480'} alt="whatsapp" />
+      </div>
       <div className="main-page">
         <video autoPlay loop muted className="background-video">
           <source
@@ -30,9 +34,7 @@ function App() {
         {/* <Footer /> */}
         <NewFooter />
       </div>
-      <div className="absolute-div" >
-        <img src={Whatsapplogo} onClick={()=>console.log("Clicked")} alt="whatsapp" />
-      </div>
+      
     </div>
   );
 }
