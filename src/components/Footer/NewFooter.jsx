@@ -52,6 +52,7 @@ const NewFooter = () => {
              <a href="/contact">Contact Us</a>
              <div className="my-4"></div>
                <a href="/privacy-policy">Privacy Policy</a>
+               <div className="my-4"></div>
 
               {/* Add more links as needed */}
             </div>
