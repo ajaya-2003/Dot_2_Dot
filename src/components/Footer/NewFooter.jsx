@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // For FontAwesome
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // For FontAwesome
 import "./NewFooter.css";
 
 
@@ -15,15 +15,15 @@ const NewFooter = () => {
               <p>Your Event Planning Partner</p>
             </div>
             <div className="contact-info">
-              <FontAwesomeIcon icon="phone" />
+              {/* <FontAwesomeIcon icon="phone" /> */}
               <p>Contact us at: contact@email.com</p>
             </div>
             <div className="contact-info">
-              <FontAwesomeIcon icon="envelope" />
+              {/* <FontAwesomeIcon icon="envelope" /> */}
               <p>Email: example@email.com</p>
             </div>
             <div className="contact-info">
-              <FontAwesomeIcon icon="map-marker" />
+              {/* <FontAwesomeIcon icon="map-marker" /> */}
               <p>Location: 123 Main St, City, Country</p>
             </div>
           </div>
@@ -52,6 +52,7 @@ const NewFooter = () => {
              <a href="/contact">Contact Us</a>
              <div className="my-4"></div>
                <a href="/privacy-policy">Privacy Policy</a>
+               <div className="my-4"></div>
 
               {/* Add more links as needed */}
             </div>
