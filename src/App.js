@@ -6,6 +6,8 @@ import Header from "./components/Header/Header";
 import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/ffooter/Footer";
 import Whatsapplogo from "./images/whatsapplogo.png"
+import NewFooter from "./components/Footer/NewFooter";
+// import Maps from "./components/maps/maps";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
         <Header />
         <NavBar />
         <Home />
-        <Footer />
+        {/* <Maps /> */}
+        {/* <Footer /> */}
+        <NewFooter />
       </div>
       <div className="absolute-div" >
         <img src={Whatsapplogo} onClick={()=>console.log("Clicked")} alt="whatsapp" />

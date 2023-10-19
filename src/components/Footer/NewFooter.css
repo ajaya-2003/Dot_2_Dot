@@ -1,0 +1,145 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-item p {
+    margin-left: 10px;
+  }
+  
+
+
+/* newffoter */
+
+
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px; 
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    background-color: black;
+   
+  }
+  
+
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    
+    padding: 10px;
+    
+  }
+  
+  .official-footer {
+    background-color: #070707;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-left{  
+    color: #fff;
+
+  }
+
+  .official-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    margin: 10px 0;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #070707;
+  }
+  
+
+  .website-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+
+}
+
+.footer-logo h1 {
+  font-size: 24px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 14px;
+} 
