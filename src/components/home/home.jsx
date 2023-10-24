@@ -3,7 +3,6 @@ import Img from "../img/img";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cards from "../cards/cards";
 import EventCard from "../eventcard/eventcard";
-import "font-awesome/css/font-awesome.min.css";
 
 const Home = () => {
   return (
