@@ -3,8 +3,8 @@ import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 function MapConponent() {
   const mapRef = useRef();
   const center = {
-    lat:12.9220,
-    lng:77.5671
+    lat:13.003679778717466,
+    lng:77.47894394232888
   }
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: "",
