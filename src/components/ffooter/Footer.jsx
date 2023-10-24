@@ -61,39 +61,39 @@
 
 // footer5
 
-const Footer = () => {
-  return (
-    <footer className="site-footer" style={{ background: 'black', minHeight: '200px' }}>
-      <div className="container d-flex flex-column justify-content-between" style={{ minHeight: '100%' }}>
-        <div>
-          <div className="col-md-6">
-            <ul className="social-icons">
-              <li>
-                <a href="https://www.facebook.com/profile.php?id=100063645330257&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://instagram.com/dot2dotevents?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="text-center">
-          <p style={{ color: 'white' }}>
-            &copy; {new Date().getFullYear()} Dot_2_Dot Events. All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
-}
+// const Footer = () => {
+//   return (
+//     <footer className="site-footer" style={{ background: 'black', minHeight: '200px' }}>
+//       <div className="container d-flex flex-column justify-content-between" style={{ minHeight: '100%' }}>
+//         <div>
+//           <div className="col-md-6">
+//             <ul className="social-icons">
+//               <li>
+//                 <a href="https://www.facebook.com/profile.php?id=100063645330257&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+//                   <i className="fab fa-facebook-f"></i>
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" target="_blank" rel="noopener noreferrer">
+//                   <i className="fab fa-twitter"></i>
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="https://instagram.com/dot2dotevents?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+//                   <i className="fab fa-instagram"></i>
+//                 </a>
+//               </li>
+//             </ul>
+//           </div>
+//         </div>
+//         <div className="text-center">
+//           <p style={{ color: 'white' }}>
+//             &copy; {new Date().getFullYear()} Dot_2_Dot Events. All rights reserved.
+//           </p>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// }
 
-export default Footer;
+// export default Footer;

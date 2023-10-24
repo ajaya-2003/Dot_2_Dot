@@ -3,10 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/home/home";
 import Header from "./components/Header/Header";
 import NavBar from "./components/Navbar/Navbar";
-import Footer from "./components/ffooter/Footer";
 import Whatsapplogo from "./images/whatsapplogo.png"
 import NewFooter from "./components/Footer/NewFooter";
-// import Maps from "./components/maps/maps";
 
 
 function App() {
@@ -29,8 +27,6 @@ function App() {
         <Header />
         <NavBar />
         <Home />
-        {/* <Maps /> */}
-        {/* <Footer /> */}
         <NewFooter />
       </div>
       
