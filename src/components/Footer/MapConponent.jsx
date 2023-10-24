@@ -7,7 +7,7 @@ function MapConponent() {
     lng:77.5671
   }
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDWcSL56Edij5MTdS1oQuK7RxgTHZWLyiE",
+    googleMapsApiKey: "",
   });
   const mapLoad = useCallback((map) => {
     mapRef.current = map;
