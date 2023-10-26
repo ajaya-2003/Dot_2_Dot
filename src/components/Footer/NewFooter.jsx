@@ -2,12 +2,11 @@ import React from "react";
 // import "./NewFooter.css";
 import "./MainFooter.css";
 import MapConponent from "./MapConponent";
-import FB from '../../images/facebook-logo.png'
-import insta from '../../images//instagram-logo.png'
-import Twitter from '../../images/twitter-logo.png'
-import YouTube from '../../images/youtube-logo.png'
-import LinkedIn from '../../images/LinkedIn-logo.png'
-
+import FB from "../../images/facebook-logo.png";
+import insta from "../../images//instagram-logo.png";
+import Twitter from "../../images/twitter-logo.png";
+import YouTube from "../../images/youtube-logo.png";
+import LinkedIn from "../../images/LinkedIn-logo.png";
 
 const NewFooter = () => {
   return (
@@ -16,20 +15,34 @@ const NewFooter = () => {
         <MapConponent />
       </div>
       <div className="footer-middle">
-        <div className="footer-midle-box"></div>
+        <div className="footer-midle-box-1">
+          <h4 style={{ fontWeight: "600" }}>Contact Us</h4>
+          <div className="footer-middle-box-items">
+            <i className="fa fa-map-marker" aria-hidden="true"></i>{" "}
+            <label> D group, 3rd cross, main road, NC Layout, Andrahalli, Lingadeeranhalli, Bengaluru, Karnataka 560091, India</label>
+          </div>
+          <div className="footer-middle-box-items">
+            <i className="fa fa-envelope" aria-hidden="true"></i>{" "}
+            <label> dot2dotevents@gmail.com </label>
+          </div>
+          <div className="footer-middle-box-items">
+            <i className="fa fa-phone" aria-hidden="true"></i>{" "}
+            <label> +91&nbsp;9876543210 </label>
+          </div>
+        </div>
         <div className="footer-midle-box"></div>
         <div className="footer-midle-box"></div>
       </div>
       <div className="footer-bottom">
         <div className="footer-social-media-icons">
-          <img src={insta} alt="instagram" />
-          <img src={LinkedIn} alt="LinkedIn" />
           <img src={FB} alt="Facebook" />
-          <img src={Twitter} alt="Twitter" />
+          <img src={insta} alt="instagram" />
           <img src={YouTube} alt="You-Tube" />
+          <img src={Twitter} alt="Twitter" />
+          <img src={LinkedIn} alt="LinkedIn" />
         </div>
         <div className="footer-copy-write">
-          &copy; {new Date().getFullYear()} Dot-2-Dot Events. All rights
+          &copy;{new Date().getFullYear()} Dot-2-Dot Events. All rights
           reserved.
         </div>
       </div>
