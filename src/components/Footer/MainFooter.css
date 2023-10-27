@@ -1,130 +1,133 @@
-.main-footer{
-    background-color: #333;
-    color: #fff;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.footer-top{
-    width: 100%;
-    height: 300px;
+.footer-top {
+  width: 100%;
+  height: 300px;
 }
 
-.footer-middle{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.footer-middle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.footer-midle-box{
-    width: 400px;
-    height: 225px;
-    border: 1px solid red;
+.footer-midle-box {
+  width: 400px;
+  height: 225px;
+  border: 1px solid red;
 }
 
-.footer-midle-box-1{
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+.footer-midle-box-1 {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
-.footer-midle-box-1 > h4{
-    border-bottom: 1px solid white;
+.footer-midle-box-1 > h4 {
+  border-bottom: 1px solid white;
 }
-.footer-middle-box-items{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: top;
-    min-height: 1.4rem;
-}
-
-
-.footer-middle-box-items > i{
-    font-size: 1.3rem;
-    margin-right: 15px;
-    padding: 7px 7px 5px 5px;
-    max-width: 1.4rem;
-    max-height: 1.4rem;
+.footer-middle-box-items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  min-height: 1.4rem;
 }
 
-.footer-middle-box-items > label{
-    font-size: 18px;
-    text-align: left;
-    min-height: 1.4rem;
-    display: flex;
-    align-items: center;
+.footer-middle-box-items > i {
+  font-size: 1.3rem;
+  margin-right: 15px;
+  padding: 7px 7px 5px 5px;
+  max-width: 1.4rem;
+  max-height: 1.4rem;
 }
 
-.footer-bottom{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.footer-middle-box-items > label {
+  font-size: 18px;
+  text-align: left;
+  min-height: 1.4rem;
+  display: flex;
+  align-items: center;
 }
 
-.footer-social-media-icons{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    gap: 20px;
+.footer-middle-box-items > label:hover{
+  color:#dcd6d6;
+  cursor: pointer;
 }
 
-.footer-social-media-icons > img{
-    height: 30px;
-    border-radius: 5px;
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-social-media-icons > img:hover{
-    transform: scale(1.1);
+.footer-social-media-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  gap: 20px;
+}
+
+.footer-social-media-icons > img {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.footer-social-media-icons > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {
-    .footer-middle{
-        width: 100%;
-        display: flex;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-    .footer-midle-box{
-        width: 100%;
-        height: 225px;
-        border: 1px solid red;
-    }
-    .footer-midle-box-1{
-        width: calc(100% - 20px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .footer-midle-box-1 > h4{
-        font-size: 20px;
-    }
-
-    .footer-middle-box-items > i{
-        font-size: 1.4rem;
-        padding: 3px;
-    }
-    
-    .footer-middle-box-items > label{
-        font-size: 15px;
-    }
-
-
+  .footer-middle {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
   }
+  .footer-midle-box {
+    width: 100%;
+    height: 225px;
+    border: 1px solid red;
+  }
+  .footer-midle-box-1 {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .footer-midle-box-1 > h4 {
+    font-size: 20px;
+  }
+
+  .footer-middle-box-items > i {
+    font-size: 1.4rem;
+    padding: 3px;
+  }
+
+  .footer-middle-box-items > label {
+    font-size: 15px;
+  }
+}
