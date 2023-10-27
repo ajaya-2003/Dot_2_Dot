@@ -34,27 +34,19 @@ body {
   justify-content: space-around;
 }
 /* Add this to App.css */
-.cool-heading {
-  font-size: 3rem; /* Adjust the font size as needed */
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #007bff; /* Change the color to your preference */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-/* App.css */
 
 /* heading  */
 .cool-heading {
   font-size: 36px;
   font-weight: bold;
-  color: #007bff; /* You can adjust the color to your preference */
+  color: #007bff;
   margin-top: 10px;
 }
 
-.event-title {
+.container > label {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 /* background */
@@ -70,15 +62,18 @@ body {
 }
 
 /* heading */
+
 .container {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 10px;
+  width: 100%;
 }
 
 .centered-content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -87,37 +82,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .centered-content,
   .right-div {
     flex: 1;
   }
 }
-/* .container {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-
-.centered-content {
-  display: flex;
-}
-
-.event-title {
-  text-align: center;
-}
-
-/* Media query for responsiveness */
-/* @media (max-width: 768px) {
-  .centered-content {
-    flex-direction: column;
-    text-align: center; 
-  }
-}  */
 
 .background-layer {
   height: 100vh;
@@ -127,7 +96,7 @@ body {
 
 .absolute-div {
   height: 50px;
-  width:50px;
+  width: 50px;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -140,13 +109,27 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
   .absolute-div {
     height: 50px;
-    width:50px;
+    width: 50px;
     position: fixed;
     bottom: 50px;
     right: 10px;
     z-index: 999;
   }
-  
+
+  .cool-heading {
+    font-size: 30px;
+    font-weight: 1000;
+    color: #007bff;
+    margin-top: 5px;
+  }
+  .container > label {
+    font-size: 20px;
+    margin-top: 0px;
+  }
 }

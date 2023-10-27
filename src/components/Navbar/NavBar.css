@@ -1,0 +1,84 @@
+/* NavBar.css */
+
+.custom-navbar {
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    color: #343a40; /* Dark text color */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #343a40; /* Dark text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Primary color on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .dropdown-item {
+    color: #343a40; /* Dark text color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #007bff; /* Primary color on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    border: none;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  .form-check-label {
+    color: #343a40; /* Dark text color */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler-icon {
+      background-color: #343a40; /* Dark color for hamburger icon */
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .custom-navbar .navbar-collapse {
+      background-color: #f8f9fa; /* Light gray background color */
+      padding: 10px;
+    }
+  
+    .navbar-nav .nav-link,
+    .navbar-nav .dropdown-toggle {
+      color: #343a40; /* Dark text color */
+      text-align: center;
+    }
+  
+    .navbar-nav .dropdown-toggle::after {
+      display: none;
+    }
+  }
+  
